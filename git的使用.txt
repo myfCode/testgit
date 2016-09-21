@@ -1,0 +1,26 @@
+1、coding  代码仓库  用于代码托管，项目管理  在coding中创建远程代码仓库
+
+2、git（或svn）分布式版本控制系统   安装git及可视化操作工具TortoiseGit
+
+   命令行设置用户名和邮箱
+   
+   git config --global user.name "qf_fuwei"
+
+   git config --global user.email "1126300015@qq.com"
+
+   命令行生成密钥
+
+   ssh-keygen -t rsa -C "1126300015@qq.com"
+
+3、打开项目所在地址（服务器路径下）  右键  git bash here
+
+
+4、git clone  把代码仓库代码克隆进来(输入的用户名密码是远程仓库的用户名密码)
+
+5、git add -A 把本地所有添加的代码放入本地缓存区
+
+6、git commit -m'注释'
+
+7、git pull
+
+8、git push origin master
